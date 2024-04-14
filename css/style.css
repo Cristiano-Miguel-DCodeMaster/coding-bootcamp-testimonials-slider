@@ -121,6 +121,9 @@ right: 430px;*/
         flex-direction: column;
         gap: 0;
     }
+    .lighty{
+        font-size: 14px;
+    }
     .wave{
         width: 100%;
         height: 12vh;
