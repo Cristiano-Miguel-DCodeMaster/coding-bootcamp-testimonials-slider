@@ -1,49 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Another great way to practice your frontend skills with a lot of accuracy with frontendmentor">
+  <meta name="description"
+    content="Another great way to practice your frontend skills with a lot of accuracy with frontendmentor">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="css/style.css">
   <title>Frontend Mentor | Coding Bootcamp Testimonials Slider</title>
   <style>
-    footer{
+    footer {
       text-align: center;
     }
-    .attribution { 
-      font-size: 11px; 
-      text-align: center; 
+
+    .attribution {
+      font-size: 11px;
+      text-align: center;
     }
-    .attribution a { 
-      color: hsl(228, 45%, 44%); 
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
     }
   </style>
 </head>
-<body>
-<main role="main">
-  <section>
-    
-      <div class="holder1">
-        <div class="text-left">
-          <h1>
-            “ I’ve been interested in coding for a while but never taken the jump, until now.
-            I couldn’t recommend this course enough. I’m now in the job of my dreams and so
-            excited about the future. ”
-          </h1>
-          <p>
-            <span class="bold">Tanya Sinclair</span>
-            &nbsp;
-            <span class="lighty">UX Engineer</span>
-          </p>
-        </div>
-        <img width="540" height="540" src="images/image-tanya.jpg" alt="Tanya">
-      </div>
 
-  </section>
-</main>
+<body>
+  <main role="main">
+    <section class="holder1">
+      <div class="text-left">
+        <img class="quotes" src="images/pattern-quotes.svg" alt="quotes">
+        <h1>
+          “ I’ve been interested in coding for a while but never taken the jump, until now.
+          I couldn’t recommend this course enough. I’m now in the job of my dreams and so
+          excited about the future. ”
+        </h1>
+        <div class="occupation">
+          <p class="bold">
+            Tanya Sinclair
+            </p>
+            <p class="lighty">
+              UX Engineer
+            </p>
+        </div>
+      </div>
+      <div class="arrow">
+        <img class="prev" width="13" height="18" src="images/icon-prev.svg" alt="prev">
+        <img class="next" width="13" height="18" src="images/icon-next.svg" alt="next">
+      </div>
+      <img class="tanya" width="540" height="540" src="images/image-tanya.jpg" alt="Tanya">
+      <img class="bg" src="images/pattern-bg.svg" alt="background">
+    </section>
+  </main>
 
   <footer>
+    <img class="wave" width="610" height="154" src="images/pattern-curve.svg" alt="curvewave">
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="www.github.com/cristiano-miguel-dcodemaster">DCode Master</a>.
@@ -52,4 +63,5 @@
 
   <script src="js/app.js"></script>
 </body>
+
 </html>
