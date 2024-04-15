@@ -131,8 +131,440 @@ right: 430px;*/
         z-index: -1;
         left: 0;
     }
+    footer{
+        display: flex;
+        justify-content: center;
+    }
+    .attribution{
+        z-index: 1;
+        padding-top: 50px;
+        position: absolute;
+        bottom: 0;
+    }
+}
+@media only screen and (min-width:320px) and (min-height:480px){
+    .attribution{
+        margin-top: 0px;
+        position: relative;
+    }
+}
+@media only screen and (min-width:320px) and (min-height:667px){
+    .quotes{
+        top: 54%;
+    }
+    .wave{
+        height: 20vh;
+    }
+}
+@media only screen and (min-width:375px) {
+    .holder1{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -48px;
+    }
+    .bg{
+        width: 90%;
+        top: 20px;
+    }
+    .arrow{
+        top: 45%;
+    }
+    .quotes{
+	top: 58%;
+    width: 15%;
+    }
+    .text-left{
+        width: 85%;
+        padding-top: 80px;
+    }
     .attribution{
         z-index: 1;
         padding-top: 50px;
     }
 }
+@media only screen and (min-width:375px) and (min-height:667px){
+    .bg{
+        width: 95%;
+    }
+    .quotes{
+        top: 56%;
+        width: 15%;
+        }
+        h1{
+            font-weight: 400;
+        }
+    .wave{
+        height: 16vh;
+    }
+}
+@media only screen and (min-width:390px) and (min-height:800px){
+    .holder1{
+        margin-top: 0;
+    }
+    .bg{
+        width: 95%;
+        height: 50vh;
+        top: 55px;
+    }
+    .tanya{
+        width: 80%;
+    }
+    .arrow{
+        top: 48%;
+    }
+    .quotes{
+        top: 57%;
+    }
+    .text-left{
+        width: 95%;
+    }
+    h1{
+        font-size: 19px;
+    }
+    .wave{
+        height:30vh;
+    }
+    .attribution {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:425px){
+    .bg{
+        width: 95%;
+        height: 57vh;
+    }
+    .tanya{
+        width: 75%;
+    }
+    h1{
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width:768px){
+    .bg{
+        width: 95%;
+        height: 70vh;
+    }
+    .tanya{
+        width: 60%;
+        height: 50vh;
+    }
+    .arrow{
+        top: 53%;
+    }
+    .quotes{
+        width: 12%;
+        top: 70%;
+        left: 35%;
+    }
+    .text-left{
+        padding-top: 150px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    .bold{
+        font-size: 20px;
+    }
+    .lighty{
+        font-size: 16px;
+    }
+    .attribution{
+        position: relative;
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width:768px) and (min-height:1024px){
+    .bg{
+        height: 65vh;
+    }
+    .arrow{
+        top: 56%;
+    }
+    .bold{
+        font-size: 22px;
+    }
+    .lighty{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:992px){
+main {
+	height: 80vh;
+}
+.holder1 {
+	flex-direction: row;
+	width: 100%;
+    margin-top: -17%;
+}
+.quotes {
+	left: 160px;
+	top: 202px;
+	position: absolute;
+}
+.bg {
+	right: 5px;
+    width: 657px;
+    height: 697px;
+    top: 10%;
+}
+.text-left{
+    padding-top: 0;
+}
+h1{
+    font-size: 32px;
+    font-weight: 300;
+    width: 105%;
+    text-align: left;
+}
+.bold{
+    font-weight: 600;
+}
+.arrow{
+    top: 62%;
+    padding: 15px;
+    right: 380px;
+}
+.prev,.next{
+    cursor: pointer;
+}
+.occupation{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.wave{
+    height: 20vh;
+}
+.attribution{
+    font-size: 18px;
+}
+}
+@media only screen and (min-width:1024px) and (min-height:600px){
+main {
+	height: 100vh;
+}
+.holder1 {
+	flex-direction: row;
+	width: 95%;
+    margin-top: -17%;
+}
+.quotes {
+	left: 100px;
+	top: 128px;
+	position: absolute;
+}
+.bg {
+	right: 5px;
+    width: 57%;
+    height: 90vh;
+    top: 5.7%;
+}
+.tanya{
+    width: 50%;
+    height: 450px;
+}
+h1{
+    font-size: 28px;
+}
+.bold{
+    font-weight: 600;
+}
+.arrow{
+    width: 7%;
+    top: 85%;
+    padding: 15px;
+    right: 330px;
+}
+.prev,.next{
+    cursor: pointer;
+}
+.occupation{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 10px;
+    padding-top: 20px;
+}
+.wave{
+    height: 40vh;
+}
+footer{
+    margin-top: -150px;
+}
+}
+@media only screen and (min-width:1024px) and (min-height:736px){
+    .quotes{
+        top: 27%;
+        left: 110px;
+    }
+    .bg{
+        height: 80vh;
+        top: 13%;
+    }
+    .arrow{
+        top: 78%;
+    }
+    footer{
+        margin-top: -155px;
+    }
+}
+@media only screen and (min-width:1024px) and (min-height:1366px){
+.holder1 {
+    margin-top: -17%;
+}
+.quotes {
+	left: 110px;
+	top: 37%;
+}
+.bg {
+    width: 57%;
+    height: 50vh;
+    top: 29.5%;
+}
+.bold{
+    font-weight: 600;
+    font-size: 28px;
+}
+.lighty{
+font-size: 22px;
+}
+.arrow{
+    width: 8%;
+    top: 64%;
+}
+.wave{
+    height: 20vh;
+}
+footer{
+    margin-top: -200px;
+}
+}
+@media only screen and (min-width:1272px) and (min-height:645px){
+    .holder1{
+        width: 80%;
+    }
+    .quotes{
+        left: 220px;
+        width: 10%;
+    }
+    h1{
+        font-size: 32px;
+        width: 110%;
+    }
+    .bg{
+        width: 50%;
+    }
+    .arrow{
+        top: 79%;
+        right: 400px;
+    }
+    .lighty{
+        font-size: 16px;
+        padding-top: 3px;
+    }
+}
+@media only screen and (min-width:1280px) and (min-height:800px){
+.quotes {
+	left: 115px;
+	top: 24%;
+}
+.bg {
+    top: 12.5%;
+    height: 80vh;
+    width: 50%;
+}
+h1{
+    font-size: 30px;
+}
+.bold{
+    font-weight: 600;
+    font-size: 28px;
+}
+.lighty{
+font-size: 22px;
+}
+.arrow{
+    top: 73%;
+}
+.wave{
+    height: 40vh;
+}
+footer{
+    margin-top: -200px;
+}
+}
+@media only screen and (min-width:1400px){
+    .holder1{
+        width: 80%;
+    }
+.quotes {
+	left: 300px;
+    width: 8%;
+}
+.bg {
+    top: 11.8%;
+    height: 70vh;
+    width: 44%;
+    right: 30px;
+}
+h1{
+    font-size: 34px;
+    width: 100%;
+    margin-left: 50px;
+}
+.occupation{
+    margin-left: 50px;
+}
+.bold{
+    font-weight: 500;
+    font-size: 26px;
+}
+.lighty{
+font-size: 18px;
+padding-top: 5px;
+}
+.arrow{
+    top: 73%;
+    right: 410px;
+}
+}
+@media only screen and (min-width:1440px){
+h1{
+    font-size: 36px;
+    width: 100%;
+    margin-left: 50px;
+}
+.wave{
+    height: 50vh;
+}
+}
+@media only screen and (min-width: 1890px) {
+	h1{
+        font-size: 46px;
+    }
+    .bold{
+font-size: 30px;
+    }
+    .lighty{
+font-size: 22px;
+    }
+    .tanya{
+        height: 600px;
+    }
+    .arrow{
+        top: 69%;
+        right: 550px;
+    }
+}
+@media only screen and (min-width: 2010px) {
+	
+}
+@media only screen and (min-width: 2275px) {
+	
+}
+

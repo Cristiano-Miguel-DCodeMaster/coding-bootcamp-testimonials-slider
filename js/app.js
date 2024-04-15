@@ -19,7 +19,7 @@ next
             } else if( p == 1){
                 img.src = "images/Michael.jpg";
                 h1.innerText
-                    = "“if you want to lay the best foundation possible I'd recommend taking this challenge. It's a very interesting way to build real projects and practice your Knowledge. I now feel so confident about starting up as a professional developer. ”";
+                    = "“I recommend taking this challenge. It's a very interesting way to build real projects and practice your Knowledge. I now feel so confident about starting up as a professional developer. ”";
                 bold.innerText = "DCode Master";
                 lighty.innerText = "Front-end Developer";
             }
