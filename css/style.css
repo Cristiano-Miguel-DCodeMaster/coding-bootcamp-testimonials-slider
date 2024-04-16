@@ -230,6 +230,11 @@ right: 430px;*/
         font-size: 14px;
     }
 }
+@media only screen and (min-width:414px) and (min-height:736px){
+    .wave{
+        height: 25vh;
+    }
+}
 @media only screen and (min-width:425px){
     .bg{
         width: 95%;
@@ -544,7 +549,14 @@ h1{
 }
 }
 @media only screen and (min-width: 1890px) {
-	h1{
+	.holder1{
+        margin-top: -200px;
+    }
+    .bg{
+        height: 90vh;
+        top: 4%;
+    }
+    h1{
         font-size: 46px;
     }
     .bold{
@@ -557,14 +569,24 @@ font-size: 22px;
         height: 600px;
     }
     .arrow{
-        top: 69%;
+        top: 84%;
         right: 550px;
     }
 }
 @media only screen and (min-width: 2010px) {
-	
+	h1{
+        font-size: 49px;
+    }
 }
 @media only screen and (min-width: 2275px) {
-	
+	h1{
+        font-size: 58px;
+    }
+    .arrow{
+        padding: 25px;
+        width: 5%;
+        right: 625px;
+        top: 82%;
+    }
 }
 
