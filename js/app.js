@@ -5,7 +5,6 @@ var img = document.getElementById('pic'),
     bold = document.querySelector('.bold'),
     lighty = document.querySelector('.lighty'),
     p = 0;
-
 next
     .addEventListener('click',
         () => {
