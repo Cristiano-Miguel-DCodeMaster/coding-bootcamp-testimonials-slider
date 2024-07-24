@@ -10,7 +10,7 @@
 }
 @font-face {
     font-family: 'inter';
-    src: url("/fonts/Inter[slnt\,wght].ttf");
+    src: url("../fonts/Inter[slnt\,wght].ttf");
 }
 main {
 	display: flex;
